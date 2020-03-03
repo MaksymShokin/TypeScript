@@ -27,3 +27,15 @@ const x: {
   age: 30
 };
 
+let array = ['20','30'];
+
+let hobbies: string[];
+hobbies = ['Sports', 'Cooking'];
+
+let books: any[];
+books = [20, 'good'];
+
+for (const hobby of hobbies) {
+    console.log(hobby)
+}
+
