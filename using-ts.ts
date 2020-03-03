@@ -39,3 +39,8 @@ for (const hobby of hobbies) {
     console.log(hobby)
 }
 
+//tuple
+
+let tuple: [number, string];
+tuple = [10, 'max'];
+
