@@ -24,3 +24,15 @@ for (var _i = 0, hobbies_1 = hobbies; _i < hobbies_1.length; _i++) {
     var hobby = hobbies_1[_i];
     console.log(hobby);
 }
+//tuple
+var tuple;
+tuple = [10, 'max'];
+//enum
+var Role;
+(function (Role) {
+    Role[Role["ADMIN"] = 0] = "ADMIN";
+    Role[Role["USER"] = 1] = "USER";
+    Role[Role["AUTHOR"] = 2] = "AUTHOR";
+})(Role || (Role = {}));
+var maxRole = Role.USER;
+console.log('role', maxRole);

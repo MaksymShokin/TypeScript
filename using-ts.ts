@@ -44,3 +44,12 @@ for (const hobby of hobbies) {
 let tuple: [number, string];
 tuple = [10, 'max'];
 
+//enum
+
+enum Role {ADMIN, USER, AUTHOR}
+// starts from 3
+enum Teams {ManUtd = 3, Liverpool, Everton}
+
+const maxRole = Role.USER;
+console.log('role', maxRole);
+
