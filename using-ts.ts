@@ -77,8 +77,8 @@ combine('Word', 'Letter');
 //literal types
 
 function calc(
-  input1: Combinable,
-  input2: Combinable,
+  input1: numOrStr,
+  input2: numOrStr,
   resultConversion: 'as-text' | 'as-number'
 ) {
   //code
@@ -86,7 +86,19 @@ function calc(
 
 //type aliases
 
-type Combinable = number | string
+type numOrStr = number | string
+
+//function return types
+
+function print(a): void {
+  console.log(a)
+}
+
+function print2(b: number): number {
+  return b
+}
+
+print2(5);
 
 
 
