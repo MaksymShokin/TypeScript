@@ -100,6 +100,12 @@ function print2(b: number): number {
 
 print2(5);
 
+//functions as type
+
+let getValues: Function; //any function
+
+let getNums: (a: number, b: number) => number;
+
 
 
 
