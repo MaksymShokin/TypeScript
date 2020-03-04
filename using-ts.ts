@@ -77,12 +77,16 @@ combine('Word', 'Letter');
 //literal types
 
 function calc(
-  input1: number | string,
-  input2: number | string,
+  input1: Combinable,
+  input2: Combinable,
   resultConversion: 'as-text' | 'as-number'
 ) {
   //code
 }
+
+//type aliases
+
+type Combinable = number | string
 
 
 
