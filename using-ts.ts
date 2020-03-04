@@ -74,5 +74,17 @@ function combine(input1: number | string, input2: number | string) {
 combine(5, 20);
 combine('Word', 'Letter');
 
+//literal types
+
+function calc(
+  input1: number | string,
+  input2: number | string,
+  resultConversion: 'as-text' | 'as-number'
+) {
+  //code
+}
+
+
+
 
 
